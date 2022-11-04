@@ -1,13 +1,11 @@
 {
-  "name": "@heroicons/vue",
+  "name": "@jonyak/icons",
   "license": "MIT",
-  "version": "2.0.13",
-  "description": "",
+  "version": "1.0.3",
   "keywords": [],
-  "homepage": "https://github.com/tailwindlabs/heroicons#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tailwindlabs/heroicons.git"
+    "url": "git+https://github.com/dev-eugen/icons.git"
   },
   "files": [
     "20",
@@ -20,5 +18,15 @@
   },
   "peerDependencies": {
     "vue": ">= 3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/dev-eugen/icons/issues"
+  },
+  "homepage": "https://github.com/dev-eugen/icons#readme",
+  "main": "./outline/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jonya",
+  "description": ""
 }
