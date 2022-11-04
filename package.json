@@ -1,13 +1,13 @@
 {
   "name": "@jonya/jonya-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "files": [
     "20/",
     "24/",
     "README.md"
   ],
-  "scripts": { 
+  "scripts": {
     "lint": "node ./scripts/verify-names.js",
     "prebuild": "rimraf ./{20,24} ./{vue,react}/{20,24} ./optimized/{20,24}",
     "build": "npm run build-24-outline && npm run build-20-solid && npm run build-24-solid && npm run build-react && npm run build-vue",
